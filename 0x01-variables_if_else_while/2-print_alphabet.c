@@ -11,5 +11,6 @@ int main(void)
 
 	for (; g <= 'z'; g++)
 		putchar(g);
+	putchar('\n');
 	return (0);
 }
