@@ -19,7 +19,7 @@ int main(void)
 
 			for (; k <= 57; k++)
 			{
-				int u = 48;
+				int u = j + 1;
 
 				for (; u <= 57; u++)
 				{
