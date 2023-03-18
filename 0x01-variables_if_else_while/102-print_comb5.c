@@ -21,10 +21,10 @@ int main(void)
 			{
 				int u;
 
-				if (k == 0)
+				if (k == 48)
 					u = j + 1;
 				else
-					u = 47;
+					u = 48;
 				for (; u <= 57; u++)
 				{
 					putchar(i);
