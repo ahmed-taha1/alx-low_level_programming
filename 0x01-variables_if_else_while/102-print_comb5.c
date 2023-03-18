@@ -28,10 +28,11 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(u);
-				if (i != 57 || j != 56 || k != 57 || u != 57)
-				{
-					putchar(',');
-					putchar(' ');
+					if (i != 57 || j != 56 || k != 57 || u != 57)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
